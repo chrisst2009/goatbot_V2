@@ -1,9 +1,9 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
-    "2FASecret": "",
-    "i_user": "",
+    "email": "christstars2009@gmail.com",
+    "password": "aaaaaaaa",
+    "2FASecret": "code d'authentification de deux facteurs Facebook du bot",
+    "i_user": "UID du compte du bot",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
@@ -17,15 +17,14 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61568806302361",
-    ""
+   "61568806302361"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🥷🏻 𝐌𝐢𝐧𝐚𝐭𝐨 𝐤𝐚𝐦𝐢𝐤𝐚𝐳𝐞 🍀",
+  "nickNameBot": "🥷🏻 𝐌𝐢𝐧𝐚𝐭𝐨 𝐧𝐚𝐦𝐢𝐤𝐚𝐳𝐞 🍀",
   "prefix": "/",
   "database": {
     "type": "sqlite",
@@ -34,18 +33,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Dhaka",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "romeobot555@gmail.com",
-      "clientId": "695328982889-v1t85ej9aq1fvv0n4alp7rcbea9gkgvf.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04EyH1gbNUVv5CgYIARAAGAQSNwF-L9IrqcPCQD2QsuhCQ2XprHCTMrTnVPI6WvT9i73nnoi4XqfAD0_yDoGW_gtWUdIeVtANzao",
+      "email": "dchiago5@gmail.com",
+      "clientId": "1010906918510-po4nstt02ukm3j8da8gd9t2njn33acsp.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//047nW8rfd64xzCgYIARAAGAQSNwF-L9IrEhgU3oXmx51_10sSdE3NP3Mb59easZKL9rsSUIaaXzD3o-Z8D7xNEtUWgS8_EvD3n7I",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6Lff7Y0mAAAAALiv3IBkCCOfCdEsN-lK-jtR5FCm",
-      "secretKey": "6Lff7Y0mAAAAAGQr8dO3lqDJVhTi8Q-tpLLy2kGo"
+      "siteKey": "6LfesxcpAAAAACHTjiR6XLauORrxcmxXlZdsw3l7",
+      "secretKey": "6LfesxcpAAAAAEilCuwpnAJJ3Zz8ikfaeMko2cdY"
     }
   },
   "dashBoard": {
