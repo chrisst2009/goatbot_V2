@@ -1,9 +1,9 @@
 {
   "facebookAccount": {
-    "email": "christstars2009@gmail.com",
-    "password": "aaaaaaaa",
-    "2FASecret": "code d'authentification de deux facteurs Facebook du bot",
-    "i_user": "UID du compte du bot",
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
@@ -16,41 +16,89 @@
     "enable": false,
     "ignoreCommand": []
   },
+  "developerOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "vipOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
   "adminBot": [
-   "61568806302361"
+    "100094118835962",
+    "61568806302361"
   ],
+  "developer": [
+    "100094118835962",
+    "61568806302361"
+  ],
+  "vipuser": [
+    "100094118835962",
+    "61568806302361"
+  ],
+  "premium": [
+    "100094118835962",
+    "61568806302361"
+  ],
+  "creator": [
+    "100094118835962",
+    "61568806302361"
+  ],
+  "reactBy": {
+    "delete": [
+      "🗑️",
+      "❌",
+      "😠",
+      "😡",
+      "😾"
+    ],
+    "kick": [
+      "🖕",
+      "🦵"
+    ],
+    "warn": [
+      "⚠️"
+    ],
+    "mute": [
+      "🔇",
+      "🤐"
+    ],
+    "adduser": [
+      "🫂"
+    ]
+  },
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🥷🏻 𝐌𝐢𝐧𝐚𝐭𝐨 𝐧𝐚𝐦𝐢𝐤𝐚𝐳𝐞 🍀",
-  "prefix": "/",
+  "nickNameBot": "𝙼𝙸𝙽𝙰𝚃𝙾 𝙽𝙰𝙼𝙸𝙺𝙰𝚉𝙴",
+  "prefix": ".",
   "database": {
-    "type": "sqlite",
-    "uriMongodb": "",
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://Hinata:W2fNh.H9iWFU22F@cluster0.cyattib.mongodb.net/OZADNOOB1?retryWrites=true&w=majority&appName=Cluster0",
     "autoSyncWhenStart": false,
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Asia/Dhaka",
   "credentials": {
     "gmailAccount": {
-      "email": "dchiago5@gmail.com",
-      "clientId": "1010906918510-po4nstt02ukm3j8da8gd9t2njn33acsp.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//047nW8rfd64xzCgYIARAAGAQSNwF-L9IrEhgU3oXmx51_10sSdE3NP3Mb59easZKL9rsSUIaaXzD3o-Z8D7xNEtUWgS8_EvD3n7I",
+      "email": "maybesaim12@gmail.com",
+      "clientId": "100897454411-5r8hk9opvdijmogm98ksttg4asvfs3u6.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04CwY3A993tGWCgYIARAAGAQSNwF-L9IrEMdVj25IWIOrpT0HX7Lo4YXx6ce0JP-C3GjKoyWSFb_-f_N3oHRL15ZwrsQ8TpBsjmI",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LfesxcpAAAAACHTjiR6XLauORrxcmxXlZdsw3l7",
-      "secretKey": "6LfesxcpAAAAAEilCuwpnAJJ3Zz8ikfaeMko2cdY"
+      "siteKey": "6LdZTuIrAAAAAEJ9LXfW4a0V97vUPe31lp95DKvA",
+      "secretKey": "6LdZTuIrAAAAAEEK-qSFLsTkK_RJQnL4yTIhcJcL"
     }
   },
   "dashBoard": {
     "enable": true,
     "expireVerifyCode": 300000,
-    "port": 3001
+    "port": 5000
   },
   "serverUptime": {
     "enable": false,
@@ -58,7 +106,7 @@
     "socket": {
       "enable": true,
       "channelName": "uptime",
-      "verifyToken": ""
+      "verifyToken": "u1940319-ea7f101121162c69af48f6ce"
     }
   },
   "autoRestart": {
@@ -113,7 +161,9 @@
     "userBanned": false,
     "needRoleToUseCmd": false,
     "needRoleToUseCmdOnReply": false,
-    "needRoleToUseCmdOnReaction": false
+    "needRoleToUseCmdOnReaction": false,
+    "developerOnly": false,
+    "vipOnly": false
   },
   "logEvents": {
     "disableAll": false,
@@ -132,10 +182,14 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": false,
+    "selfListen": true,
     "selfListenEvent": true,
-    "autoMarkDelivery": false,
-    "autoReconnect": false,
+    "autoMarkDelivery": true,
+    "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  }
+  },
+  "devUsers": [
+    "100094118835962",
+    "61568806302361"
+  ]
 }
